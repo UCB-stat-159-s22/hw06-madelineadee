@@ -68,6 +68,7 @@ data files with getsegs():
 import numpy as np
 import os
 import fnmatch
+from ligotools import readligo as rl
 
 def read_frame(filename, ifo, readstrain=True):
     """
