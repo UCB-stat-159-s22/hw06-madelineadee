@@ -1,4 +1,7 @@
 
+# import packages needed for functions
+import numpy as np
+from scipy.io import wavfile
 
 # function to whiten data
 def whiten(strain, interp_psd, dt):
